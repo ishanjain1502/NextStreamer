@@ -19,7 +19,7 @@ function MyCustomComponent() {
   return (
     <ReactHlsPlayer
       playerRef={playerRef}
-      src="http://localhost:8080/hls/user.m3u8"
+      src={process.env.SERVER_LINK}
     />
   );
 }
