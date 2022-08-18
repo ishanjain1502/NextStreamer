@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+// import Video from '../components/video';
 
 const Home: NextPage = () => {
   return (
@@ -11,8 +12,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        
+      <main className='main' >
+        <h1 className='flex justify-center h-screen relative top-8 text-3xl' > Watch the Live Stream Here </h1>
+        <div>
+        {/* <Video/> */}
+        </div>
       </main>
     </div>
   )

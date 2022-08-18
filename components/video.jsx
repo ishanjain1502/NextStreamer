@@ -1,28 +1,28 @@
-import React from 'react';
-import ReactHlsPlayer from 'react-hls-player';
+// import React from 'react';
+// import ReactHlsPlayer from 'react-hls-player';
 
-function MyCustomComponent() {
-  const playerRef = React.useRef();
+// function MyCustomComponent() {
+//   const playerRef = React.useRef();
 
-  function playVideo() {
-    playerRef.current.play();
-  }
+//   function playVideo() {
+//     playerRef.current.play();
+//   }
 
-  function pauseVideo() {
-    playerRef.current.pause();
-  }
+//   function pauseVideo() {
+//     playerRef.current.pause();
+//   }
+// // 
+//   function toggleControls() {
+//     playerRef.current.controls = !playerRef.current.controls;
+//   }
 
-  function toggleControls() {
-    playerRef.current.controls = !playerRef.current.controls;
-  }
+//   return (
+//     <ReactHlsPlayer
+//       playerRef={playerRef}
+//       src={process.env.SERVER_LINK}
+//     />
+//   );
+// }
 
-  return (
-    <ReactHlsPlayer
-      playerRef={playerRef}
-      src={process.env.SERVER_LINK}
-    />
-  );
-}
-
-export default MyCustomComponent;
+// export default MyCustomComponent;
 
